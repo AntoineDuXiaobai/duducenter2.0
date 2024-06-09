@@ -26,9 +26,9 @@ const Footer: React.FC = () => {
           blankTarget: true,
         },
         {
-          key: 'Youtube',
-          title: '油管',
-          href: 'https://youtube.com',
+          key: 'Beian',
+          title: '沪ICP备2024074024号',
+          href: 'https://beian.miit.gov.cn/',
           blankTarget: true,
         },
       ]}

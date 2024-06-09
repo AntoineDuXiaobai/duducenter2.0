@@ -9,10 +9,12 @@ import {stringify} from "querystring";
 
 /**
  * 配置request请求时的默认参数
+ * http://user-backend.duducenter.site  生产环境
+ * http://localhost:8080 本地环境
  */
 const request = extend({
   credentials: 'include', // 默认请求是否带上cookie
-  prefix: process.env.NODE_ENV === 'production' ? 'http://119.91.46.248' : undefined
+  prefix: process.env.NODE_ENV === 'production' ? 'http://user-backend.duducenter.site ' : undefined
   // requestType: 'form',
 });
 
